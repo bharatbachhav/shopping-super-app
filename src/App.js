@@ -5,29 +5,30 @@ function App() {
     {
       name: "Amazon",
       url: "https://www.amazon.in",
-      img: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      img: "/images/amazon.png",
     },
     {
       name: "Flipkart",
       url: "https://www.flipkart.com",
-      img: "https://upload.wikimedia.org/wikipedia/commons/0/08/Flipkart_logo.svg",
+      img: "/images/flipkart.png",
     },
     {
       name: "Myntra",
       url: "https://www.myntra.com",
-      img: "https://upload.wikimedia.org/wikipedia/commons/8/80/Myntra_Logo.png",
+      img: "/images/myntra.png",
     },
     {
       name: "Ajio",
       url: "https://www.ajio.com",
-      img: "https://upload.wikimedia.org/wikipedia/commons/5/50/AJIO_Logo.png",
+      img: "/images/ajio.png",
     },
     {
       name: "JioMart",
       url: "https://www.jiomart.com",
-      img: "https://upload.wikimedia.org/wikipedia/commons/4/44/JioMart_Logo.png",
+      img: "/images/jiomart.png",
     },
   ];
+
 
   return (
     <div className="min-h-screen bg-gray-50">
