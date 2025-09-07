@@ -1,33 +1,34 @@
 import React from "react";
 
 function App() {
-  const stores = [
-    {
-      name: "Amazon",
-      url: "https://www.amazon.in",
-      img: "/images/amazon.png",
-    },
-    {
-      name: "Flipkart",
-      url: "https://www.flipkart.com",
-      img: "/images/flipkart.png",
-    },
-    {
-      name: "Myntra",
-      url: "https://www.myntra.com",
-      img: "/images/myntra.png",
-    },
-    {
-      name: "Ajio",
-      url: "https://www.ajio.com",
-      img: "/images/ajio.png",
-    },
-    {
-      name: "JioMart",
-      url: "https://www.jiomart.com",
-      img: "/images/jiomart.png",
-    },
-  ];
+const stores = [
+  {
+    name: "Amazon",
+    url: "https://www.amazon.in",
+    img: process.env.PUBLIC_URL + "/images/amazon.png",
+  },
+  {
+    name: "Flipkart",
+    url: "https://www.flipkart.com",
+    img: process.env.PUBLIC_URL + "/images/flipkart.png",
+  },
+  {
+    name: "Myntra",
+    url: "https://www.myntra.com",
+    img: process.env.PUBLIC_URL + "/images/myntra.png",
+  },
+  {
+    name: "Ajio",
+    url: "https://www.ajio.com",
+    img: process.env.PUBLIC_URL + "/images/ajio.png",
+  },
+  {
+    name: "JioMart",
+    url: "https://www.jiomart.com",
+    img: process.env.PUBLIC_URL + "/images/jiomart.png",
+  },
+];
+
 
 
   return (
